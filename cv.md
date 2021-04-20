@@ -30,6 +30,7 @@ Sociable, which helps me to work in a team.*
 	* Experience with objective-c
 
 ### Latest code examples:
+```
 
 	class BankingTests: XCTestCase {
 
@@ -56,6 +57,8 @@ Sociable, which helps me to work in a team.*
     		XCTAssertNil(check)
   		}
 	}
+```
+
 
 ### About my experience:
 	* made a simple app
