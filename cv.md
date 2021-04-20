@@ -66,7 +66,7 @@ Sociable, which helps me to work in a team.*
 	* work with CoreData and CoreAnimation
 
 ### About education: 
-2019 - BSUIR
+	* 2019 - BSUIR, specialty: POIT
 
 ### English level
 	I study English with a tutor twice a week for three months
