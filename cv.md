@@ -31,31 +31,31 @@ Sociable, which helps me to work in a team.*
 
 ### Latest code examples:
 
-class BankingTests: XCTestCase {
+	class BankingTests: XCTestCase {
 
-  var checkingAccount: CheckingAccount!
+  		var checkingAccount: CheckingAccount!
   
-  override func setUp() {
-    super.setUp()
-    checkingAccount = CheckingAccount()
-  }
+  		override func setUp() {
+    		super.setUp()
+    		checkingAccount = CheckingAccount()
+ 		}
 
-  override func tearDown() {
-    checkingAccount.withdraw(amount: checkingAccount.balance)
-    super.tearDown()
-  }
+  		override func tearDown() {
+    		checkingAccount.withdraw(amount: checkingAccount.balance)
+    		super.tearDown()
+  		}
 
-  func testNewAccountBalanceZero() {
-    let checkingAccount = CheckingAccount()
-    XCTAssertEqual(checkingAccount.balance, 0)
-  }
+  		func testNewAccountBalanceZero() {
+    		let checkingAccount = CheckingAccount()
+    		XCTAssertEqual(checkingAccount.balance, 0)
+  		}
 
-  func testCheckOverBudgetFails() {
-    let checkingAccount = CheckingAccount()
-    let check = checkingAccount.writeCheck(amount: 100)
-    XCTAssertNil(check)
-  }
-}
+  		func testCheckOverBudgetFails() {
+    		let checkingAccount = CheckingAccount()
+    		let check = checkingAccount.writeCheck(amount: 100)
+    		XCTAssertNil(check)
+  		}
+	}
 
 ### About my experience:
 	* made a simple app
