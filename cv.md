@@ -66,5 +66,5 @@ class BankingTests: XCTestCase {
 2019 - BSUIR
 
 ### English level
-	I train with mentor twice a week
+	I study English with a tutor twice a week for three months
 
